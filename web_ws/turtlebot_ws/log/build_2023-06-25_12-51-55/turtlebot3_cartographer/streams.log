@@ -1,0 +1,49 @@
+[0.055s] Invoking command in '/home/jalal/web/web_ws/turtlebot_ws/build/turtlebot3_cartographer': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/jalal/web/web_ws/turtlebot_ws/src/turtlebot3/turtlebot3/turtlebot3_cartographer -DCMAKE_INSTALL_PREFIX=/home/jalal/web/web_ws/turtlebot_ws/install/turtlebot3_cartographer
+[0.251s] -- The C compiler identification is GNU 9.4.0
+[0.392s] -- The CXX compiler identification is GNU 9.4.0
+[0.401s] -- Check for working C compiler: /usr/bin/cc
+[0.507s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.508s] -- Detecting C compiler ABI info
+[0.599s] -- Detecting C compiler ABI info - done
+[0.611s] -- Detecting C compile features
+[0.611s] -- Detecting C compile features - done
+[0.614s] -- Check for working CXX compiler: /usr/bin/c++
+[0.738s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.739s] -- Detecting CXX compiler ABI info
+[0.845s] -- Detecting CXX compiler ABI info - done
+[0.860s] -- Detecting CXX compile features
+[0.861s] -- Detecting CXX compile features - done
+[0.864s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.898s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.898s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.246s] -- Configuring done
+[1.248s] -- Generating done
+[1.249s] -- Build files have been written to: /home/jalal/web/web_ws/turtlebot_ws/build/turtlebot3_cartographer
+[1.254s] Invoked command in '/home/jalal/web/web_ws/turtlebot_ws/build/turtlebot3_cartographer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/jalal/web/web_ws/turtlebot_ws/src/turtlebot3/turtlebot3/turtlebot3_cartographer -DCMAKE_INSTALL_PREFIX=/home/jalal/web/web_ws/turtlebot_ws/install/turtlebot3_cartographer
+[1.259s] Invoking command in '/home/jalal/web/web_ws/turtlebot_ws/build/turtlebot3_cartographer': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/jalal/web/web_ws/turtlebot_ws/build/turtlebot3_cartographer -- -j12 -l12
+[1.315s] Invoked command in '/home/jalal/web/web_ws/turtlebot_ws/build/turtlebot3_cartographer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/jalal/web/web_ws/turtlebot_ws/build/turtlebot3_cartographer -- -j12 -l12
+[1.373s] Invoking command in '/home/jalal/web/web_ws/turtlebot_ws/build/turtlebot3_cartographer': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/jalal/web/web_ws/turtlebot_ws/build/turtlebot3_cartographer
+[1.386s] -- Install configuration: ""
+[1.386s] -- Installing: /home/jalal/web/web_ws/turtlebot_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/config
+[1.386s] -- Installing: /home/jalal/web/web_ws/turtlebot_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/config/turtlebot3_lds_2d.lua
+[1.386s] -- Installing: /home/jalal/web/web_ws/turtlebot_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/launch
+[1.386s] -- Installing: /home/jalal/web/web_ws/turtlebot_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/launch/occupancy_grid.launch.py
+[1.386s] -- Installing: /home/jalal/web/web_ws/turtlebot_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/launch/cartographer.launch.py
+[1.386s] -- Installing: /home/jalal/web/web_ws/turtlebot_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/rviz
+[1.386s] -- Installing: /home/jalal/web/web_ws/turtlebot_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/rviz/tb3_cartographer.rviz
+[1.386s] -- Installing: /home/jalal/web/web_ws/turtlebot_ws/install/turtlebot3_cartographer/share/ament_index/resource_index/package_run_dependencies/turtlebot3_cartographer
+[1.387s] -- Installing: /home/jalal/web/web_ws/turtlebot_ws/install/turtlebot3_cartographer/share/ament_index/resource_index/parent_prefix_path/turtlebot3_cartographer
+[1.387s] -- Installing: /home/jalal/web/web_ws/turtlebot_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/ament_prefix_path.sh
+[1.387s] -- Installing: /home/jalal/web/web_ws/turtlebot_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/ament_prefix_path.dsv
+[1.387s] -- Installing: /home/jalal/web/web_ws/turtlebot_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/path.sh
+[1.387s] -- Installing: /home/jalal/web/web_ws/turtlebot_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/path.dsv
+[1.387s] -- Installing: /home/jalal/web/web_ws/turtlebot_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.bash
+[1.387s] -- Installing: /home/jalal/web/web_ws/turtlebot_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.sh
+[1.387s] -- Installing: /home/jalal/web/web_ws/turtlebot_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.zsh
+[1.387s] -- Installing: /home/jalal/web/web_ws/turtlebot_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.dsv
+[1.388s] -- Installing: /home/jalal/web/web_ws/turtlebot_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/package.dsv
+[1.388s] -- Installing: /home/jalal/web/web_ws/turtlebot_ws/install/turtlebot3_cartographer/share/ament_index/resource_index/packages/turtlebot3_cartographer
+[1.388s] -- Installing: /home/jalal/web/web_ws/turtlebot_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/cmake/turtlebot3_cartographerConfig.cmake
+[1.388s] -- Installing: /home/jalal/web/web_ws/turtlebot_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/cmake/turtlebot3_cartographerConfig-version.cmake
+[1.388s] -- Installing: /home/jalal/web/web_ws/turtlebot_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/package.xml
+[1.396s] Invoked command in '/home/jalal/web/web_ws/turtlebot_ws/build/turtlebot3_cartographer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/jalal/web/web_ws/turtlebot_ws/build/turtlebot3_cartographer

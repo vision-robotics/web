@@ -1,0 +1,21 @@
+[0.039s] Invoking command in '/home/jalal/web/web_ws/ros_web_ui/build/nav2d_operator': /usr/bin/cmake /home/jalal/web/web_ws/ros_web_ui/navigation_2d/nav2d_operator -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/jalal/web/web_ws/ros_web_ui/install/nav2d_operator
+[0.076s] CMake Error at CMakeLists.txt:5 (find_package):
+[0.077s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[0.077s]   asked CMake to find a package configuration file provided by "catkin", but
+[0.077s]   CMake did not find one.
+[0.077s] 
+[0.077s]   Could not find a package configuration file provided by "catkin" with any
+[0.077s]   of the following names:
+[0.078s] 
+[0.078s]     catkinConfig.cmake
+[0.078s]     catkin-config.cmake
+[0.078s] 
+[0.078s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[0.079s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[0.080s]   provides a separate development package or SDK, be sure it has been
+[0.080s]   installed.
+[0.081s] 
+[0.081s] 
+[0.081s] -- Configuring incomplete, errors occurred!
+[0.081s] See also "/home/jalal/web/web_ws/ros_web_ui/build/nav2d_operator/CMakeFiles/CMakeOutput.log".
+[0.081s] Invoked command in '/home/jalal/web/web_ws/ros_web_ui/build/nav2d_operator' returned '1': /usr/bin/cmake /home/jalal/web/web_ws/ros_web_ui/navigation_2d/nav2d_operator -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/jalal/web/web_ws/ros_web_ui/install/nav2d_operator

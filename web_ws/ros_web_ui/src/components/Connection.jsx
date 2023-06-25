@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Alert from "react-bootstrap/Alert";
 import ROSLIB from "roslib";
-import Config from "../scripts/config";
 
 function Connection() {
   const [connected, setConnected] = useState(false);

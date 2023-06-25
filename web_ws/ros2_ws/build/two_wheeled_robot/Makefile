@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jalal/ros2_ws/src/two_wheeled_robot
+CMAKE_SOURCE_DIR = /home/jalal/web/web_ws/ros2_ws/src/two_wheeled_robot
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jalal/ros2_ws/build/two_wheeled_robot
+CMAKE_BINARY_DIR = /home/jalal/web/web_ws/ros2_ws/build/two_wheeled_robot
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,9 +137,9 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jalal/ros2_ws/build/two_wheeled_robot/CMakeFiles /home/jalal/ros2_ws/build/two_wheeled_robot/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jalal/web/web_ws/ros2_ws/build/two_wheeled_robot/CMakeFiles /home/jalal/web/web_ws/ros2_ws/build/two_wheeled_robot/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jalal/ros2_ws/build/two_wheeled_robot/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jalal/web/web_ws/ros2_ws/build/two_wheeled_robot/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

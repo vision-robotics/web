@@ -1,4 +1,0 @@
-Invoking command in '/home/jalal/ros2_ws/build/two_wheeled_robot': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/jalal/ros2_ws/build/two_wheeled_robot -- -j12 -l12
-Invoked command in '/home/jalal/ros2_ws/build/two_wheeled_robot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/jalal/ros2_ws/build/two_wheeled_robot -- -j12 -l12
-Invoking command in '/home/jalal/ros2_ws/build/two_wheeled_robot': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/jalal/ros2_ws/build/two_wheeled_robot
-Invoked command in '/home/jalal/ros2_ws/build/two_wheeled_robot' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/jalal/ros2_ws/build/two_wheeled_robot

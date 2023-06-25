@@ -1,0 +1,1 @@
+Invoking command in '/home/jalal/web/web_ws/ros_web_ui/build/nav2d_localizer': /usr/bin/cmake /home/jalal/web/web_ws/ros_web_ui/navigation_2d/nav2d_localizer -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/jalal/web/web_ws/ros_web_ui/install/nav2d_localizer

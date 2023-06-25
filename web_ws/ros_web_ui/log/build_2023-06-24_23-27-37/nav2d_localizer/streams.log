@@ -1,0 +1,35 @@
+[0.038s] Invoking command in '/home/jalal/web/web_ws/ros_web_ui/build/nav2d_localizer': /usr/bin/cmake /home/jalal/web/web_ws/ros_web_ui/navigation_2d/nav2d_localizer -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/jalal/web/web_ws/ros_web_ui/install/nav2d_localizer
+[0.268s] -- The C compiler identification is GNU 9.4.0
+[0.430s] -- The CXX compiler identification is GNU 9.4.0
+[0.439s] -- Check for working C compiler: /usr/bin/cc
+[0.546s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.551s] -- Detecting C compiler ABI info
+[0.694s] -- Detecting C compiler ABI info - done
+[0.712s] -- Detecting C compile features
+[0.713s] -- Detecting C compile features - done
+[0.721s] -- Check for working CXX compiler: /usr/bin/c++
+[0.856s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.858s] -- Detecting CXX compiler ABI info
+[1.009s] -- Detecting CXX compiler ABI info - done
+[1.026s] -- Detecting CXX compile features
+[1.027s] -- Detecting CXX compile features - done
+[1.052s] CMake Error at CMakeLists.txt:5 (find_package):
+[1.052s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[1.053s]   asked CMake to find a package configuration file provided by "catkin", but
+[1.053s]   CMake did not find one.
+[1.053s] 
+[1.053s]   Could not find a package configuration file provided by "catkin" with any
+[1.053s]   of the following names:
+[1.053s] 
+[1.053s]     catkinConfig.cmake
+[1.053s]     catkin-config.cmake
+[1.053s] 
+[1.054s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[1.054s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[1.054s]   provides a separate development package or SDK, be sure it has been
+[1.054s]   installed.
+[1.054s] 
+[1.054s] 
+[1.054s] -- Configuring incomplete, errors occurred!
+[1.054s] See also "/home/jalal/web/web_ws/ros_web_ui/build/nav2d_localizer/CMakeFiles/CMakeOutput.log".
+[1.063s] Invoked command in '/home/jalal/web/web_ws/ros_web_ui/build/nav2d_localizer' returned '1': /usr/bin/cmake /home/jalal/web/web_ws/ros_web_ui/navigation_2d/nav2d_localizer -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/jalal/web/web_ws/ros_web_ui/install/nav2d_localizer
