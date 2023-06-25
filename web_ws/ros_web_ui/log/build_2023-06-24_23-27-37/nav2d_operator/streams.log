@@ -1,0 +1,35 @@
+[0.044s] Invoking command in '/home/jalal/web/web_ws/ros_web_ui/build/nav2d_operator': /usr/bin/cmake /home/jalal/web/web_ws/ros_web_ui/navigation_2d/nav2d_operator -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/jalal/web/web_ws/ros_web_ui/install/nav2d_operator
+[0.284s] -- The C compiler identification is GNU 9.4.0
+[0.448s] -- The CXX compiler identification is GNU 9.4.0
+[0.455s] -- Check for working C compiler: /usr/bin/cc
+[0.566s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.566s] -- Detecting C compiler ABI info
+[0.702s] -- Detecting C compiler ABI info - done
+[0.725s] -- Detecting C compile features
+[0.726s] -- Detecting C compile features - done
+[0.736s] -- Check for working CXX compiler: /usr/bin/c++
+[0.888s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.891s] -- Detecting CXX compiler ABI info
+[1.050s] -- Detecting CXX compiler ABI info - done
+[1.079s] -- Detecting CXX compile features
+[1.079s] -- Detecting CXX compile features - done
+[1.094s] CMake Error at CMakeLists.txt:5 (find_package):
+[1.095s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[1.095s]   asked CMake to find a package configuration file provided by "catkin", but
+[1.095s]   CMake did not find one.
+[1.096s] 
+[1.096s]   Could not find a package configuration file provided by "catkin" with any
+[1.101s]   of the following names:
+[1.102s] 
+[1.102s]     catkinConfig.cmake
+[1.102s]     catkin-config.cmake
+[1.102s] 
+[1.102s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[1.102s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[1.102s]   provides a separate development package or SDK, be sure it has been
+[1.102s]   installed.
+[1.102s] 
+[1.103s] 
+[1.105s] -- Configuring incomplete, errors occurred!
+[1.105s] See also "/home/jalal/web/web_ws/ros_web_ui/build/nav2d_operator/CMakeFiles/CMakeOutput.log".
+[1.109s] Invoked command in '/home/jalal/web/web_ws/ros_web_ui/build/nav2d_operator' returned '1': /usr/bin/cmake /home/jalal/web/web_ws/ros_web_ui/navigation_2d/nav2d_operator -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/jalal/web/web_ws/ros_web_ui/install/nav2d_operator

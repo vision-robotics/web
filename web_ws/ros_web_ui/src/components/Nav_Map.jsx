@@ -19,7 +19,6 @@ class Nav_Map extends Component {
         >
           <option value="state1">Map</option>
           <option value="state2">Nav</option>
-          <option value="state3">Charge</option>
         </select>
       </div>
     );

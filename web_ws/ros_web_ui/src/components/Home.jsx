@@ -5,6 +5,8 @@ import Container from "react-bootstrap/Container";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 import Nav_Map from "./Nav_Map";
+import Map from "./Map";
+
 //import { Row, Col, Container, Button } from "react-bootstrapt";
 
 class Home extends Component {
@@ -38,7 +40,7 @@ class Home extends Component {
             </Col>
             <Col>
               <h1>Map</h1>
-              <p>This region will be used later for displaying the map</p>
+              <Map />
             </Col>
           </Row>
         </Container>

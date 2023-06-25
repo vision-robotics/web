@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jalal/ros2_ws/src/two_wheeled_robot
+CMAKE_SOURCE_DIR = /home/jalal/web/web_ws/ros2_ws/src/two_wheeled_robot
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jalal/ros2_ws/build/two_wheeled_robot
+CMAKE_BINARY_DIR = /home/jalal/web/web_ws/ros2_ws/build/two_wheeled_robot
 
 # Utility rule file for two_wheeled_robot_uninstall.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/jalal/ros2_ws/build/two_wheeled_robot
 include CMakeFiles/two_wheeled_robot_uninstall.dir/progress.make
 
 CMakeFiles/two_wheeled_robot_uninstall:
-	/usr/bin/cmake -P /home/jalal/ros2_ws/build/two_wheeled_robot/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/jalal/web/web_ws/ros2_ws/build/two_wheeled_robot/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 two_wheeled_robot_uninstall: CMakeFiles/two_wheeled_robot_uninstall
 two_wheeled_robot_uninstall: CMakeFiles/two_wheeled_robot_uninstall.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/two_wheeled_robot_uninstall.dir/clean:
 .PHONY : CMakeFiles/two_wheeled_robot_uninstall.dir/clean
 
 CMakeFiles/two_wheeled_robot_uninstall.dir/depend:
-	cd /home/jalal/ros2_ws/build/two_wheeled_robot && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jalal/ros2_ws/src/two_wheeled_robot /home/jalal/ros2_ws/src/two_wheeled_robot /home/jalal/ros2_ws/build/two_wheeled_robot /home/jalal/ros2_ws/build/two_wheeled_robot /home/jalal/ros2_ws/build/two_wheeled_robot/CMakeFiles/two_wheeled_robot_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jalal/web/web_ws/ros2_ws/build/two_wheeled_robot && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jalal/web/web_ws/ros2_ws/src/two_wheeled_robot /home/jalal/web/web_ws/ros2_ws/src/two_wheeled_robot /home/jalal/web/web_ws/ros2_ws/build/two_wheeled_robot /home/jalal/web/web_ws/ros2_ws/build/two_wheeled_robot /home/jalal/web/web_ws/ros2_ws/build/two_wheeled_robot/CMakeFiles/two_wheeled_robot_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/two_wheeled_robot_uninstall.dir/depend
 
