@@ -14,36 +14,9 @@ class Home extends Component {
   render() {
     return (
       <div>
-        <Container>
-          <Row>
-            <Col>
-              <h1 className="text-center mt-3">Robot Control Page</h1>
-            </Col>
-          </Row>
-
-          <Row>
-            <Col>
-              <Connection />
-            </Col>
-          </Row>
-
-          <Row>
-            <Col></Col>
-            <Col>
-              <Nav_Map />
-            </Col>
-          </Row>
-
-          <Row>
-            <Col>
-              <Teleopration />
-            </Col>
-            <Col>
-              <h1>Map</h1>
-              <Map />
-            </Col>
-          </Row>
-        </Container>
+        <Connection />
+        <Map />
+        <RobotState />
       </div>
     );
   }
