@@ -1,12 +1,11 @@
+import React, { Component } from "react";
 import ROSLIB from "roslib";
 import { Viewer, Axes } from "ros3d";
 import { OccupancyGridClient } from "ros3d";
 
 import { VscClearAll } from "react-icons/vsc";
 import Config from "../scripts/config";
-import Teleoperation from "./Teleoperation";
-window.navigation = false;
-window.homing = false;
+import Teleopration from "./Teleopration";
 
 import {
   Row,
@@ -19,6 +18,7 @@ import {
   Modal,
   Alert,
 } from "react-bootstrap";
+
 import {
   IoNavigate,
   IoCloseCircleOutline,
@@ -33,6 +33,8 @@ import {
   IoSaveOutline,
   IoTrashOutline,
 } from "react-icons/io5";
+
+// The rest of your code goes here...
 
 class Map extends Component {
   state = {
@@ -106,20 +108,29 @@ class Map extends Component {
   }
 
   componentDidMount() {
-    this.init_connection();
-    this.view_map();
-    this.getGoalStatus();
-    this.getSpot();
-    this.showPath();
+    // Create a new ROS connection
+    const ros = new ROSLIB.Ros();
+
+    ros.on("connection", () => {
+      console.info("Connected to ROS:MAP");
+      this.setState({ ros, connected: true }, this.initViewerAndNavClient);
+    });
+
+    // Your other ROS setup code goes here...
   }
 
   view_map() {
-    // eslint-disable-next-line
-    this.state.viewer = new window.ROS2D.Viewer({
-      divID: "nav_div",
-      width: 640,
-      height: 480,
-    });
+    // Create a new Viewer instance only if it hasn't been created yet
+    if (!this.state.viewer) {
+      const viewer = new Viewer({
+        divID: "nav_div",
+        width: 640,
+        height: 480,
+      });
+
+      this.setState({ viewer }, this.createNavClient);
+    }
+
     // eslint-disable-next-line
     var navClient = new window.NAV2D.OccupancyGridClientNav({
       ros: this.state.ros,
@@ -129,16 +140,6 @@ class Map extends Component {
       withOrientation: true,
       continuous: true,
     });
-    // eslint-disable-next-line
-    // var imageMapClientNav = new NAV2D.ImageMapClientNav({
-    //        ros: this.state.ros,
-    //        viewer: this.state.viewer,
-    //        rootObject: this.state.viewer.scene,
-    //        serverName: '/move_base',
-    //        image: `/static/{value}.png`
-    //    });
-    //    imageMapClientNav.addImg();
-    //    imageMapClientNav.removeImg();
   }
 
   navigation() {
@@ -632,10 +633,10 @@ class Map extends Component {
               <hr></hr>
               <br></br>
               <Row align="center">
-                <h5>TELEOPERATION</h5>
+                <h5>Teleopration</h5>
                 <br></br>
                 <br></br>
-                <Teleoperation />
+                <Teleopration />
               </Row>
             </Col>
           </Row>

@@ -6,7 +6,7 @@ import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 import Nav_Map from "./Nav_Map";
 import Map from "./Map";
-
+import RobotState from "./RobotState";
 //import { Row, Col, Container, Button } from "react-bootstrapt";
 
 class Home extends Component {
